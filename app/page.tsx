@@ -51,7 +51,7 @@ export default function Home() {
 
               {/* Right - Text */}
               <div className="text-gray-200 flex-1">
-                <p className="text-lg text-justify">
+                <p>
                   Hi! I’m Mostafa Shabani, passionate about applying machine
                   learning to real-world problems. I hold a Ph.D. in Machine
                   Learning from Aarhus University.
@@ -151,9 +151,7 @@ export default function Home() {
           </div>
         </main>
         <footer>
-          <div className="bg-gray-500/50">
-            © 2025 MstShb. All rights reserved.
-          </div>
+          <div className="bg-gray-500/50"></div>
         </footer>
         <div className="line top"></div>
         <div className="line bottom"></div>
