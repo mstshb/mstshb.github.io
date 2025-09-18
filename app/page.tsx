@@ -36,10 +36,10 @@ export default function Home() {
               Hi, I’m Mostafa Shabani 👋
             </h2>
 
-            {/* Bottom row - image and description */}
-            <div className="flex items-start gap-8 w-full max-w-3xl">
+            {/* Bottom row - responsive layout */}
+            <div className="flex flex-col md:flex-row items-center gap-8 w-full max-w-3xl">
               {/* Left - Image */}
-              <div className="flex">
+              <div className="flex justify-center md:justify-center">
                 <Image
                   src={profilePic}
                   alt="Profile"
@@ -56,7 +56,10 @@ export default function Home() {
                   learning to real-world problems. I hold a Ph.D. in Machine
                   Learning from Aarhus University.
                 </p>
-                <div className="flex gap-4 mt-4">
+                <div
+                  className="flex flex-wrap gap-4 mt-4"
+                  style={{ justifyContent: "center" }}
+                >
                   {/* Denmark */}
                   <div className="flex items-center gap-2 bg-white/10 text-white px-3 py-1 rounded-md">
                     <span>🇩🇰</span>
@@ -72,6 +75,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+
           <div
             style={{
               alignItems: "center",
