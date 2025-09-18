@@ -30,48 +30,48 @@ export default function Home() {
       </Head>
       <div className="container">
         <main>
-<div className="flex flex-col items-center px-8 gap-6">
-  {/* Top row - centered greeting */}
-  <h2 className="text-xl font-bold text-center">
-    Hi, I’m Mostafa Shabani 👋
-  </h2>
+          <div className="flex flex-col items-center px-8 gap-6">
+            {/* Top row - centered greeting */}
+            <h2 className="text-xl font-bold text-center">
+              Hi, I’m Mostafa Shabani 👋
+            </h2>
 
-  {/* Bottom row - image and description */}
-  <div className="flex items-start gap-8 w-full max-w-3xl">
-    {/* Left - Image */}
-    <div className="flex">
-      <Image
-        src={profilePic}
-        alt="Profile"
-        className="rounded-full"
-        width={150}
-        height={150}
-      />
-    </div>
+            {/* Bottom row - image and description */}
+            <div className="flex items-start gap-8 w-full max-w-3xl">
+              {/* Left - Image */}
+              <div className="flex">
+                <Image
+                  src={profilePic}
+                  alt="Profile"
+                  className="rounded-full"
+                  width={150}
+                  height={150}
+                />
+              </div>
 
-    {/* Right - Text */}
-    <div className="text-gray-200 flex-1">
-      <p className="text-lg text-justify">
-        Hi! I’m Mostafa Shabani, passionate about applying machine learning to
-        real-world problems. I hold a Ph.D. in Machine Learning from Aarhus
-        University.
-      </p>
-      <div className="flex gap-4 mt-4">
-        {/* Denmark */}
-        <div className="flex items-center gap-2 bg-white/10 text-white px-3 py-1 rounded-md">
-          <span>🇩🇰</span>
-          <span>Live in Denmark</span>
-        </div>
+              {/* Right - Text */}
+              <div className="text-gray-200 flex-1">
+                <p className="text-lg text-justify">
+                  Hi! I’m Mostafa Shabani, passionate about applying machine
+                  learning to real-world problems. I hold a Ph.D. in Machine
+                  Learning from Aarhus University.
+                </p>
+                <div className="flex gap-4 mt-4">
+                  {/* Denmark */}
+                  <div className="flex items-center gap-2 bg-white/10 text-white px-3 py-1 rounded-md">
+                    <span>🇩🇰</span>
+                    <span>Live in Denmark</span>
+                  </div>
 
-        {/* Education */}
-        <div className="flex items-center gap-2 bg-white/10 text-white px-3 py-1 rounded-md">
-          <span>🎓</span>
-          <span>Studied at Aarhus University</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                  {/* Education */}
+                  <div className="flex items-center gap-2 bg-white/10 text-white px-3 py-1 rounded-md">
+                    <span>🎓</span>
+                    <span>Studied at Aarhus University</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             style={{
               alignItems: "center",
@@ -131,7 +131,7 @@ export default function Home() {
             </span>
           </div>
 
-<div className="my-16 px-4">
+          <div className="my-16 px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <EducationTimeline />
               <div>
@@ -142,18 +142,17 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-
         </main>
         <footer>
-          <div className="bg-gray-500/50">© 2025 MstShb. All rights reserved.</div>
+          <div className="bg-gray-500/50">
+            © 2025 MstShb. All rights reserved.
+          </div>
         </footer>
         <div className="line top"></div>
         <div className="line bottom"></div>
         <div className="line left"></div>
         <div className="line right"></div>
-          {/* Empty 3-column grid for future use */}
-          
+        {/* Empty 3-column grid for future use */}
       </div>
     </>
   );

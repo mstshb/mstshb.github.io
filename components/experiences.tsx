@@ -1,5 +1,5 @@
 import React from "react";
-import {FaBriefcase } from "react-icons/fa";
+import { FaBriefcase } from "react-icons/fa";
 
 export default function ExperienceTimeline() {
   // Define experience constant
@@ -67,16 +67,25 @@ export default function ExperienceTimeline() {
   ];
 
   return (
-    <div className="md:col-span-1" style={{ textAlign: 'left', direction: 'ltr' }}>
-      <h2 className="text-2xl font-bold mb-6 text-center text-gray-900 dark:text-white" style={{ color: '#f26b38' }}>
-        <FaBriefcase className="inline text-orange-500"/> Experience
+    <div
+      className="md:col-span-1"
+      style={{ textAlign: "left", direction: "ltr" }}
+    >
+      <h2
+        className="text-2xl font-bold mb-6 text-center text-gray-900 dark:text-white"
+        style={{ color: "#f26b38" }}
+      >
+        <FaBriefcase className="inline text-orange-500" /> Experience
       </h2>
 
       <ol className="relative border-l border-gray-200 dark:border-gray-700">
         {experience.map((exp, index) => (
           <li key={index} className="mb-10 ml-6">
             {/* Circle marker */}
-            <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900" style={{ backgroundColor: '#f26b38' }}>
+            <span
+              className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900"
+              style={{ backgroundColor: "#f26b38" }}
+            >
               <svg
                 className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
                 aria-hidden="true"
@@ -84,7 +93,7 @@ export default function ExperienceTimeline() {
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >
-                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
+                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
               </svg>
             </span>
 
