@@ -79,6 +79,9 @@ export default function Home() {
               gap: "10px",
               color: "#fff",
               padding: "10px",
+              flexWrap: "wrap",
+              flexDirection: "row",
+              justifyContent: "center",
             }}
           >
             <a
